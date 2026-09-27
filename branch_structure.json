@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/deploy-workflow-comprehensive-fix",
+    "fix/deploy-workflow-yarn-config",
+    "fix/vercel-action-deprecation",
+    "main"
+  ],
+  "parent": {
+    "fix/deploy-workflow-comprehensive-fix": "main",
+    "fix/deploy-workflow-yarn-config": "main",
+    "fix/vercel-action-deprecation": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "fix/deploy-workflow-comprehensive-fix",
+    "fix/deploy-workflow-yarn-config",
+    "fix/vercel-action-deprecation"
+  ]
+}
